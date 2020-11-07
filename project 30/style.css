@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.row{
+	height: 80px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-lg-6{
+	height: 80px;
+	width: 10%;
+}
+.head img{
+	height: 80px;
+	width: 100%;
+}
+#man{
+	height: 80px;
+	width: 90%;
+	background: gray;
+}
+h1{
+	color: #fff;
+	padding-top: 30px;
+	margin-left: 100px;
+}
+.header{
+	height: 50px;
+}
+h4{
+	margin-left: 180px;
+	color: red;
+}
+p{
+	color: red;
+	margin-left: 180px;
+}
+.header button{
+	background: gray;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 80px;
+	border-left: 15px solid red;
+	margin-left: 180px;
+}
+#row{
+	height: 30vh;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-6{
+	margin-left: 180px;
+	margin-top: 70px;
+	height: 30vh;
+	width: 49%;
+	background: lightgray;
+}
+.para{
+	padding-top: 20px;
+}
+.para1{
+	margin-left: 400px;
+}
+.para2{
+	color: blue;
+	margin-top: 100px;
+	margin-left: 180px;
+}
+.para3{
+	margin-top: 30px;
+	color: blue;
+	margin-left: 180px;
+}
+.para3 span{
+	font-weight: bold;
+	color: black;
+}
+
+
+
+@media(max-width: 800px){
+.header button{
+	margin-top: 1px;
+}
+.col-md-6{
+	margin-top: 120px;
+}
+.para1{
+	margin-left: 100px;
+}
+.para2{
+	margin-top: 130px;
+}
+.para3{
+	margin-top: 30px;
+}
+}

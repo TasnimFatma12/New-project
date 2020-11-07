@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.top{
+	background: lightgray;
+	height: 100vh;
+	width: 100%;
+}
+.top li{
+	padding-top: 30px;
+	list-style: none;
+	display: inline-flex;
+	margin-left: 100px;
+}
+.top a{
+	font-size: 30px;
+	font-family: 'Great Vibes', cursive;
+	color: green;
+	text-decoration: none;
+}
+.img img{
+	width: 30%;
+	height: 30vh;
+	margin-top: 70px;
+	margin-left: 80px;
+}
+.head h1{
+	color: red;
+	font-size: 60px;
+	margin: 100px;
+	font-family: 'Great Vibes', cursive;
+}
+.head img{
+	height: 25vh;
+	width: 30%;
+}
+p{
+	margin-left: 100px;
+}
+.para{
+	margin-left: 100px;
+}
+
+
+@media(max-width: 800px){
+.top{
+	height: 155vh;
+}
+}

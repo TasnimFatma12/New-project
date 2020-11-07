@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head{
+	height: 100px;
+	width: 100%;
+	background: lightgray;
+	opacity: 0.6;
+}
+.header{
+	height: 90px;
+	width: 100%;
+	background: #87cefa;
+	opacity: 0.6;
+}
+h1{
+	padding-top: 20px;
+	text-align: center;
+}
+.foot{
+	width: 100%;
+	height: 60vh;
+}
+.foot img{
+	width: 100%;
+	height: 65vh;
+}
+.foot button{
+	margin-left: 10px;
+	margin-left: 100px;
+	border: 1px solid gold;
+	background: gold;
+	color: white;
+}
+
+
+@media(max-width: 800px){
+	.foot button{
+		margin-left: 50px;
+	}
+}

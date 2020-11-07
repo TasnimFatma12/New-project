@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.header h1{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+p{
+	margin-top: 7px;
+	text-align: center;
+}
+.header li{
+	margin-top: 20px;
+	display: inline-flex;
+	list-style: none;
+	margin-left: 140px;
+}
+.header a{
+    color: black;
+	text-decoration: none;
+}
+.header span{
+	color: silver;
+}
+.line{
+	margin-left: 135px;
+	margin-top: 5px;
+	width: 80%;
+	border-bottom: 2px solid;
+}
+.para{
+	opacity: 0.6;
+	margin-top: 40px;
+    text-align: center;
+}
+h2{
+	font-size: 18px;
+	margin-top: 5px;
+	text-align: center;
+}
+.head li{
+	margin-top: 9px;
+	list-style: none;
+	margin-left: 630px;
+}
+.head a{
+	color: black;
+	opacity: 0.6;
+}
+.head img{
+	height: 30vh;
+	margin-top: 30px;
+	background: black;
+	margin-left: 670px;
+}
+.para1{
+	margin-top: 30px;
+	text-align: center;
+}
+.para2{
+	text-align: center;
+}
+.head input{
+	margin-top: 15px;
+	margin-left: 650px;
+}
+
+@media(max-width: 800px){
+	.header li{
+	margin-top: 20px;
+	display: flex;
+	margin-left: 220px;
+}
+.line{
+	margin-left: 70px;
+}
+.head li{
+	margin-left: 110px;
+}
+.head img{
+	margin-left: 140px;
+}
+.head input{
+	margin-left: 150px;
+}
+}

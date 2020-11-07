@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.head{
+	height: 50px;
+	background: green;
+	width: 100%;
+}
+.head li{
+	padding-top: 15px;
+	list-style: none;
+	float: right;
+	display: inline-flex;
+}
+.head a{
+	text-decoration: none; 
+	margin-left: 30px;
+}
+.head a span{
+	color: black;
+}
+.header{
+	height: 100px;
+	width: 100%;
+}
+h1{
+   padding-top: 30px;
+   font-family: 'Great Vibes', cursive;
+   text-align: center;
+   font-weight: bold;
+   font-size: 70px;
+   color: #000080;
+}
+
+
+
+
+.serviceBox{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 25px 25px 50px;
+    border-radius: 80px;
+    box-shadow: 0 0 20px -7px rgba(0,0,0,0.4) inset;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.serviceBox:before,
+.serviceBox:after{
+    content: "";
+    background: linear-gradient(to right,#fca753 50%,#FE9F43 50%);
+    width: 10%;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    z-index: -1;
+}
+.serviceBox:after{
+    width: 70%;
+    height: 100px;
+    top: auto;
+    bottom: -70px;
+}
+.serviceBox .service-icon{
+    color: #fff;
+    font-size: 60px;
+    margin: 0 0 45px;
+}
+.serviceBox .title{
+    color: #FE9F43;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.serviceBox .description{
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    margin: 0;
+}
+.serviceBox.red:before,
+.serviceBox.red:after{
+    background: linear-gradient(to right,#FE6546 50%,#FD553A 50%);
+}
+.serviceBox.red .title{ color: #FD553A; }
+.serviceBox.purple:before,
+.serviceBox.purple:after{
+    background: linear-gradient(to right,#7b60a3 50%,#6D598C 50%);
+}
+.serviceBox.purple .title{ color: #6D598C; }
+.serviceBox.blue:before,
+.serviceBox.blue:after{
+    background: linear-gradient(to right,#6ac8e2 50%,#5dbde2 50%);
+}
+.serviceBox.blue .title{ color: #5dbde2; }
+@media only screen and (max-width:990px){
+    .serviceBox{ margin: 0 0 30px; }
+}
+License Terms

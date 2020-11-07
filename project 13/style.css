@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pinyon+Script&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.head{
+	height: 100vh;
+	background: #82e0aa;
+}
+h1{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Pinyon Script', cursive;
+}
+h1 span{
+	font-family: 'Pinyon Script', cursive;
+	margin-left: 170px;
+}
+.head button{
+	margin-top: 40px;
+	margin-left: 10px;
+	padding: 5px;
+	border: none;
+}
+.row{
+	margin-top: 50px;
+	width: 100%;
+	display: inline-flex;
+	height: 60vh;
+}
+.col-lg-6{
+	margin-left: 100px;
+	height: 60vh;
+	width: 30vw;
+}
+.header img{
+	border: 10px solid #fff;
+	height: 60vh;
+	width: 100%;
+}
+#lg{
+	margin-left: 200px;
+	height: 60vh;
+	width: 40vw;
+}
+.footer h2{
+	font-size: 45px;
+	color: #6BBB59;
+	padding-top: 50px;
+	margin-left: 300px;
+}
+p{
+	font-size: 20px;
+	color: #6BBB59;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.para{
+	font-size: 20px;
+	color: #6BBB59;
+	margin-top: 40px;
+	margin-left: 300px;
+}
+
+
+
+
+
+
+@media(max-width: 800px){
+h1{
+	padding-top: 10px;
+}
+h1 span{
+	margin-left: 30px;
+}
+.col-lg-6{
+	margin-left: 10px;
+	height: 40vh;
+	width: 10vw;
+}
+.header img{
+	height: 40vh;
+	width: 350%;
+}
+.footer h2{
+	font-size: 30px;
+	margin-left: 1px;
+}
+p{
+	margin-left: 1px;
+}
+.para{
+	margin-top: 20px;
+	margin-left: 1px;
+}
+}

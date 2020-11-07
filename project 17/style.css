@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.row{
+	display: inline-flex;
+	height: 180px;
+	width: 100%;
+}
+.col-lg-6{
+	height: 180px;
+	width: 80vh;
+}
+h1{
+	padding-top: 30px;
+	text-align: center;
+	color: blue;
+}
+h1 span{
+	font-size: 10px;
+}
+#man{
+	width: 100%;
+	height: 180px;
+}
+h2{
+	padding-top: 40px;
+	color: #000080;
+	text-align: center;
+}
+h2 span{
+	font-size: 10px;
+}
+.para{
+	color: #000080;
+	margin-top: 20px;
+	text-align: center;
+}
+.para span{
+	color: red;
+}
+#row{
+	height: 80px;
+	width: 100%;
+	display: inline-flex;
+}
+.col-md-4{
+	background: lightgray;
+	height: 80px;
+	width: 46%;
+}
+.nav img{
+	margin-left: 570px;
+	height: 80px;
+
+}
+#col{
+	background: lightgray;
+	height: 80px;
+	width: 30%;
+}
+h5{
+	margin-left: 15px;
+	padding-top: 10px;
+    color: #000080; 
+}
+.para1{
+	margin-left: 15px;
+	font-size: 12px;
+	color: red;
+	margin-top: 10px;
+}
+#main{
+	background: lightgray;
+	height: 80px;
+	width: 30%;
+}
+.top1 li{
+	padding-top: 10px;
+	display: inline-flex;
+	list-style: none;
+}
+.top1 a{
+	margin-left: 40px;
+	text-decoration: none;
+	color: red;
+}
+.btn button{
+	background: lightgray;
+	margin-top: 10px;
+	margin-left: 120px;
+	color: red;
+	padding-top: 6px;
+	padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#row2{
+	display: flex;
+	/*height: 60vh;*/
+	width: 100%;
+}
+.col-md-3{
+	background: #43464b;
+	width: 30%;
+	height: 50vh;
+}
+h3{
+	background: gray;
+	padding-top: 10px;
+	text-align: center;
+	border-left: 1px solid #fff;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.para2{
+	height: 30vh;
+	background: #800000;
+	padding-top: 20px;
+	border-left: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+
+
+@media(max-width: 800px){
+h2{
+	padding-top: 10px;
+}
+.para{
+	margin-top: 6px;
+}
+.col-md-4{
+	width: 40%;
+}
+.nav img{
+	margin-left: 10px;
+}
+h5{
+	margin-left: 5px;
+}
+.para1{
+	margin-left: 5px;
+}
+.top1 a{
+	margin-left: 5px;
+}
+.btn button{
+	margin-top: 1px;
+	margin-left: 10px;
+}	
+}
